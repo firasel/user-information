@@ -7,9 +7,11 @@
   flex-direction: row-reverse;
 }
 .users{
-  width: fit-content;
-  margin: auto;
   overflow: hidden;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
 }
 .addedUser{
   width: 25%;
@@ -17,42 +19,31 @@
   padding: 5px;
 }
 
-@media screen and (max-width:1295px){
-  .addedUser{
-    width: 45%;
-  }
-}
-@media screen and (max-width:1107px){
-  .addedUser{
-    width: 75%;
-  }
-}
-@media screen and (max-width:745px){
-  .App{
-    display: block;
+@media screen and (max-width:1300px){
+  .users{
+    grid-template-columns: 1fr 1fr;
   }
   .addedUser{
-    width: 55%;
-    border-left: 0px;
-    margin: auto;
+    width: 35%;
   }
 }
-@media screen and (max-width:572px){
+@media screen and (max-width:1135px){
+  .users{
+    grid-template-columns: 1fr;
+  }
+  .addedUser{
+    width: 50%;
+  }
+}
+@media screen and (max-width:750px){
+  .users{
+    grid-template-columns: 1fr;
+  }
   .App{
     display: block;
   }
   .addedUser{
     width: 95%;
-    border-left: 0px;
-    margin: auto;
-  }
-}
-@media screen and (max-width:345px){
-  .App{
-    display: block;
-  }
-  .addedUser{
-    width: 100%;
     border-left: 0px;
     margin: auto;
   }
