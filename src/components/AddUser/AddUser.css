@@ -1,0 +1,23 @@
+.addUsers{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.addUsers img{
+    border-radius: 50%;
+    padding: 5px;
+}
+.addUsers h4{
+    margin: 0 15px;
+    padding: 0 5px;
+}
+.addUsers small{
+    cursor: pointer;
+    font-size: 17px;
+    padding: 0 5px;
+}

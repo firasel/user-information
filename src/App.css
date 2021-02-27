@@ -1,0 +1,59 @@
+.App {
+  background-color: rgb(235, 235, 235);
+  overflow: hidden;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.users{
+  width: fit-content;
+  margin: auto;
+  overflow: hidden;
+}
+.addedUser{
+  width: 25%;
+  border-left: 2px solid lightgrey;
+  padding: 5px;
+}
+
+@media screen and (max-width:1295px){
+  .addedUser{
+    width: 45%;
+  }
+}
+@media screen and (max-width:1107px){
+  .addedUser{
+    width: 75%;
+  }
+}
+@media screen and (max-width:745px){
+  .App{
+    display: block;
+  }
+  .addedUser{
+    width: 55%;
+    border-left: 0px;
+    margin: auto;
+  }
+}
+@media screen and (max-width:572px){
+  .App{
+    display: block;
+  }
+  .addedUser{
+    width: 95%;
+    border-left: 0px;
+    margin: auto;
+  }
+}
+@media screen and (max-width:345px){
+  .App{
+    display: block;
+  }
+  .addedUser{
+    width: 100%;
+    border-left: 0px;
+    margin: auto;
+  }
+}

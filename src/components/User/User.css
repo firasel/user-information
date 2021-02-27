@@ -1,0 +1,71 @@
+.user{
+    border: 0;
+    border-radius: 10px;
+    background-color: white;
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 20px;
+    overflow: hidden;
+    float: left;
+}
+.user img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 5px;
+}
+.user h4{
+    margin: 2px;
+    font-size: 18px;
+}
+.user span{
+    margin: 2px;
+    font-size: 18px;
+    color: darkslategray;
+}
+.user p{
+    margin: 3px;
+    color: darkgrey;
+    font-size: 15px;
+}
+.userInfo{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 2px;
+}
+.userInfo h5{
+    margin: 3px;
+    color: dimgray;
+}
+.gender p{
+    color: darkslategray;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+.salary small{
+    color: darkslateblue;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.userButton button{
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    font-size: 18px;
+    font-weight: 550;
+    min-width: 120px;
+    transition: all 0.5s;
+}
+.userButton button:hover{
+    color: rgb(24, 24, 24);
+    background-color: lightsteelblue;
+}
